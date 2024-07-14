@@ -3,8 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_geek():
-    return '<h1>Hello from Flask & Docker</h1>'
-
+    return '<h1>Hello from Flask & Docker, haha!</h1>'
 
 if __name__ == "__main__":
     app.run(host = "0.0.0.0", debug=True)
